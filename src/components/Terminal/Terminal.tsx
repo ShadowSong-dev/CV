@@ -189,7 +189,7 @@ export function Terminal({
       <div
         ref={scrollRef}
         onMouseDown={onSurfaceMouseDown}
-        className="flex flex-1 flex-col gap-3 overflow-y-auto bg-background px-4 pt-4 sm:px-6 sm:pt-6"
+        className="flex min-h-0 flex-1 flex-col gap-3 overflow-y-auto bg-background px-4 pt-4 sm:px-6 sm:pt-6"
         data-testid="terminal-surface"
         data-theme-current={theme}
       >

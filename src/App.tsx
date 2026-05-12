@@ -23,6 +23,16 @@ export function App() {
     }
   }, [theme])
 
+  // 把当前模式写到 <html data-mode=…>。Terminal 模式下 CSS 据此锁定文档滚动，
+  // 避免「内层 overflow-y-auto + 外层 body 滚动」两条滚动条同时出现。
+  useEffect(() => {
+    const root = document.documentElement
+    root.setAttribute('data-mode', mode)
+    return () => {
+      root.removeAttribute('data-mode')
+    }
+  }, [mode])
+
   // 把 locale 写到 <html lang=…>，同时同步 i18n 当前语言
   useEffect(() => {
     document.documentElement.setAttribute('lang', locale)

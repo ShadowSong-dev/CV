@@ -61,6 +61,14 @@
     text-rendering: optimizeLegibility;
   }
 
+  /* Terminal 模式整屏即视口，禁止文档级滚动；内容滚动由内部 overflow-y-auto 承担。
+     GuiMode 不设置该属性，文档继续按 min-height: 100dvh 自然滚动。 */
+  :root[data-mode="terminal"],
+  :root[data-mode="terminal"] body {
+    overflow: hidden;
+    height: 100dvh;
+  }
+
   ::selection {
     background-color: var(--color-accent);
     color: var(--color-background);
