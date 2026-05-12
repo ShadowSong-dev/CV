@@ -1,0 +1,146 @@
+{
+  "terminal": {
+    "title": "guest@RayChen:~$",
+    "ariaInput": "Command input",
+    "ariaWindow": "Terminal window",
+    "ariaOutput": "Terminal output",
+    "ariaQuick": "Quick commands"
+  },
+  "welcome": {
+    "cliTitle": "RayChen CLI v1.0.0",
+    "greeting": "Welcome — this is an interactive terminal resume.",
+    "tipType": "type ",
+    "tipForAll": " for all commands · ",
+    "tipForBio": " for bio · ",
+    "tipLangCmd": "lang zh",
+    "tipLangSuffix": " for 中文"
+  },
+  "help": {
+    "header": "Available commands:",
+    "tipPrefix": "tip: ",
+    "tipHistory": "history · ",
+    "tipComplete": "autocomplete · ",
+    "tipRun": "run"
+  },
+  "summaries": {
+    "help": "list all available commands",
+    "whoami": "show personal bio",
+    "lsProjects": "list projects",
+    "catAye": "show Aye project details",
+    "catCv": "show this resume project",
+    "skills": "show technical skills (tree)",
+    "contact": "show email and GitHub",
+    "clear": "clear the screen",
+    "theme": "switch color theme: green | amber | matrix",
+    "lang": "switch language: en | zh",
+    "gui": "switch to graphical resume mode"
+  },
+  "whoami": {
+    "name": "Ray Chen",
+    "role": "── Web3 full-stack · undergrad",
+    "education": "Dongguan University of Technology · CS · junior · expected 2027",
+    "experience": "~1 year of Web3 experience.",
+    "bio": [
+      "Ships React user interfaces and Node.js back-end services,",
+      "augmenting the workflow with AI tooling.",
+      "Long-time follower of the Ethereum ecosystem; writes Solidity",
+      "smart contracts with a feel for gas optimisation; familiar with",
+      "wallet integration, on-chain interactions and common EVM",
+      "standards. Knows the Uniswap v3 protocol well."
+    ],
+    "englishLabel": "english  ",
+    "englishValue": "reads and writes technical English fluently and able to conduct basic technical communication in English"
+  },
+  "ls": {
+    "ayeDesc": "— Human-in-the-loop on-chain AI agent · ETHGlobal Open Agents",
+    "cvDesc": "— Personal resume (this site)",
+    "hintPrefix": "hint: ",
+    "hintCmd": "cat <name>",
+    "hintSuffix": " for details"
+  },
+  "aye": {
+    "title": "# Aye — Human-in-the-loop on-chain AI agent",
+    "subtitle": "  ETHGlobal Open Agents hackathon · solo",
+    "introLines": [
+      "Aye is a human-in-the-loop AI agent for Ethereum (Sepolia),",
+      "built across three workspaces:"
+    ],
+    "coreLabel": "TypeScript core",
+    "coreLines": [
+      " — polls prompts and runs a DeepSeek-powered",
+      "    agent that turns natural language into structured",
+      "    on-chain intents (Uniswap V3 swaps, transfers,",
+      "    approvals, WETH wrap/unwrap, ...)."
+    ],
+    "contractsLabel": "Solidity contracts",
+    "contractsSuffix": " — audit log + whitelist for accountability",
+    "frontendLabel": "Vite/viem front-end",
+    "frontendLines": [
+      " — a human reviewer says “yes” or \"no\"",
+      "    before any transaction is signed and broadcast"
+    ],
+    "summary": "→ the wallet owner — not the model — becomes the safety layer.",
+    "linksHeading": "links:"
+  },
+  "cv": {
+    "title": "# Personal resume (this project)",
+    "body": "A Terminal/CLI-flavoured personal resume built with React + Vite.",
+    "linksHeading": "links:"
+  },
+  "theme": {
+    "usagePrefix": "usage: ",
+    "usageCmd": "theme [green|amber|matrix]",
+    "unknownPrefix": "unknown theme: ",
+    "options": "try: green | amber | matrix",
+    "confirm": "theme → {{target}}"
+  },
+  "lang": {
+    "usagePrefix": "usage: ",
+    "usageCmd": "lang [en|zh]",
+    "currentPrefix": "current: ",
+    "unknownPrefix": "unknown language: ",
+    "options": "try: en | zh",
+    "confirm": "language → {{target}}"
+  },
+  "guiCommand": {
+    "launching": "launching graphical mode…"
+  },
+  "errors": {
+    "notFound": "command not found: ",
+    "typeHelp": "type \"help\""
+  },
+  "gui": {
+    "name": "Ray Chen",
+    "brand": "shadowsong / cv · gui mode",
+    "back": "← terminal",
+    "backLabel": "Back to terminal mode",
+    "lang": "中文",
+    "langLabel": "Switch language to Chinese",
+    "tagline": "Web3 full-stack · undergraduate",
+    "education": "Dongguan University of Technology · CS · junior · expected 2027",
+    "aboutTitle": "About",
+    "aboutParas": [
+      "~1 year of Web3 experience. Ships React user interfaces and Node.js back-end services, augmenting the workflow with AI tooling. Long-time follower of the Ethereum ecosystem; writes Solidity smart contracts with a feel for gas optimisation; familiar with wallet integration, on-chain interactions and common EVM standards. Knows the Uniswap v3 protocol well.",
+      "Reads and writes technical English fluently; comfortable with basic technical conversations in English."
+    ],
+    "skillsTitle": "Skills",
+    "projectsTitle": "Projects",
+    "ayeProject": {
+      "title": "Aye — Human-in-the-loop on-chain AI agent",
+      "subtitle": "ETHGlobal Open Agents hackathon · solo",
+      "description": [
+        "Aye is a human-in-the-loop AI agent for Ethereum (Sepolia), built across three workspaces: a DeepSeek-powered TypeScript core that polls prompts and turns natural-language requests into structured on-chain intents (Uniswap V3 swaps, ETH/ERC20 transfers, approvals, WETH wrap/unwrap, …); Solidity contracts that supply an audit log and a whitelist for accountability; and a Vite/viem web front-end where a human reviewer says \"yes\" or \"no\" before any transaction is signed and broadcast.",
+        "The wallet owner — not the model — becomes the safety layer."
+      ]
+    },
+    "cvProject": {
+      "title": "Personal resume (this project)",
+      "description": [
+        "A Terminal/CLI-flavoured personal resume built with React + Vite."
+      ]
+    },
+    "contactTitle": "Contact",
+    "emailLabel": "email",
+    "githubLabel": "github"
+  }
+}

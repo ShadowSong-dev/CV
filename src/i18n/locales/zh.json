@@ -1,0 +1,143 @@
+{
+  "terminal": {
+    "title": "guest@RayChen:~$",
+    "ariaInput": "命令输入",
+    "ariaWindow": "终端窗口",
+    "ariaOutput": "终端输出",
+    "ariaQuick": "快捷命令"
+  },
+  "welcome": {
+    "cliTitle": "RayChen CLI v1.0.0",
+    "greeting": "欢迎 — 这是一份可交互的终端简历。",
+    "tipType": "输入 ",
+    "tipForAll": " 查看全部命令 · ",
+    "tipForBio": " 查看简介 · ",
+    "tipLangCmd": "lang en",
+    "tipLangSuffix": " 切回英文"
+  },
+  "help": {
+    "header": "可用命令：",
+    "tipPrefix": "提示： ",
+    "tipHistory": "历史 · ",
+    "tipComplete": "补全 · ",
+    "tipRun": "执行"
+  },
+  "summaries": {
+    "help": "列出所有可用命令",
+    "whoami": "查看个人简介",
+    "lsProjects": "列出项目",
+    "catAye": "查看 Aye 项目详情",
+    "catCv": "查看本简历项目",
+    "skills": "查看技术栈 (树形)",
+    "contact": "查看邮箱与 GitHub",
+    "clear": "清屏",
+    "theme": "切换配色主题：green | amber | matrix",
+    "lang": "切换语言：en | zh",
+    "gui": "切换到图形界面模式"
+  },
+  "whoami": {
+    "name": "陈瑞泰",
+    "role": "── Web3 全栈开发 · 在校生",
+    "education": "东莞理工学院 计算机科学与技术 · 大三在读 · 预计 2027 毕业",
+    "experience": "1 年 Web3 经验。",
+    "bio": [
+      "熟练使用 React 构建前端用户接口，以及 Node.js 构建后端服务，",
+      "并使用 AI tools 辅助工作流程。",
+      "长期关注 Ethereum 生态，使用 Solidity 开发智能合约，",
+      "具备一定的 Gas 优化能力，熟悉钱包集成、链上交互",
+      "与常见 EVM 标准。熟悉 Uniswap v3 协议。"
+    ],
+    "englishLabel": "english  ",
+    "englishValue": "可流畅读写英文技术文档，能进行基础英文技术沟通"
+  },
+  "ls": {
+    "ayeDesc": "— 人在回路的链上 AI Agent · ETHGlobal Open Agents",
+    "cvDesc": "— 个人简历 (本项目)",
+    "hintPrefix": "提示： ",
+    "hintCmd": "cat <name>",
+    "hintSuffix": " 查看详情"
+  },
+  "aye": {
+    "title": "# Aye —— 人在回路的链上 AI Agent",
+    "subtitle": "  ETHGlobal Open Agents 黑客松 · 独立项目",
+    "introLines": [
+      "Aye 是一个用于以太坊 (Sepolia 测试网) 的人机交互 AI 代理，",
+      "分为三个工作区："
+    ],
+    "coreLabel": "TypeScript 核心服务",
+    "coreLines": [
+      " — 轮询提示并运行一个由 DeepSeek 驱动的代理，",
+      "    将自然语言请求转换为结构化的链上意图",
+      "    (Uniswap V3 兑换 / ETH·ERC20 转账 / 批准 / WETH 包装等)"
+    ],
+    "contractsLabel": "Solidity 合约",
+    "contractsSuffix": " — 提供审计日志和白名单以实现问责",
+    "frontendLabel": "Vite/viem 前端",
+    "frontendLines": [
+      " — 任何交易签名前由人工审核员说「是 / 否」"
+    ],
+    "summary": "→ 钱包所有者而不是模型成为安全层。",
+    "linksHeading": "links："
+  },
+  "cv": {
+    "title": "# 个人简历 (本项目)",
+    "body": "使用 React + Vite 构建的 Terminal/CLI 交互风格个人简历。",
+    "linksHeading": "links："
+  },
+  "theme": {
+    "usagePrefix": "用法： ",
+    "usageCmd": "theme [green|amber|matrix]",
+    "unknownPrefix": "未知主题：",
+    "options": "可选：green | amber | matrix",
+    "confirm": "theme → {{target}}"
+  },
+  "lang": {
+    "usagePrefix": "用法： ",
+    "usageCmd": "lang [en|zh]",
+    "currentPrefix": "当前： ",
+    "unknownPrefix": "未知语言：",
+    "options": "可选：en | zh",
+    "confirm": "语言 → {{target}}"
+  },
+  "guiCommand": {
+    "launching": "正在进入图形模式…"
+  },
+  "errors": {
+    "notFound": "命令未找到：",
+    "typeHelp": "输入 \"help\""
+  },
+  "gui": {
+    "name": "陈瑞泰",
+    "brand": "shadowsong / cv · 图形模式",
+    "back": "← 终端",
+    "backLabel": "Back to terminal mode",
+    "lang": "EN",
+    "langLabel": "Switch language to English",
+    "tagline": "Web3 全栈开发 · 在校生",
+    "education": "东莞理工学院 计算机科学与技术 · 大三在读 · 预计 2027 毕业",
+    "aboutTitle": "关于",
+    "aboutParas": [
+      "1 年 Web3 经验。熟练使用 React 构建前端用户接口，以及 Node.js 构建后端服务，并使用 AI tools 辅助工作流程。长期关注 Ethereum 生态，使用 Solidity 开发智能合约，具备一定的 Gas 优化能力，熟悉钱包集成、链上交互与常见 EVM 标准。熟悉 Uniswap v3 协议。",
+      "可流畅读写英文技术文档，能进行基础英文技术沟通。"
+    ],
+    "skillsTitle": "技能",
+    "projectsTitle": "项目",
+    "ayeProject": {
+      "title": "Aye —— 人在回路的链上 AI Agent",
+      "subtitle": "ETHGlobal Open Agents 黑客松 · 独立项目",
+      "description": [
+        "Aye 是一个用于以太坊 (Sepolia 测试网) 的人机交互 AI 代理，分为三个工作区：一个由 DeepSeek 驱动的 TypeScript 核心服务（轮询提示并将自然语言请求转换为结构化的链上意图：Uniswap V3 兑换、ETH/ERC20 转账、批准、WETH 包装/解包等）；提供审计日志和白名单以实现问责的 Solidity 合约；以及一个 Vite/viem Web 前端，在任何交易签名和广播之前，人工审核员都会说「是」或「否」。",
+        "这使得钱包所有者而不是模型成为安全层。"
+      ]
+    },
+    "cvProject": {
+      "title": "个人简历 (本项目)",
+      "description": [
+        "使用 React + Vite 构建的 Terminal/CLI 交互风格个人简历项目。"
+      ]
+    },
+    "contactTitle": "联系方式",
+    "emailLabel": "email",
+    "githubLabel": "github"
+  }
+}
