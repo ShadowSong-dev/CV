@@ -288,7 +288,7 @@ describe('welcomeLines', () => {
 
   it('zh 下包含中文 CLI 标题与中文欢迎语', () => {
     const txt = joinText(welcomeLines('zh'))
-    expect(txt).toContain('Ray CLI v1.0.0')
+    expect(txt).toContain('RayChen CLI v1.0.0')
     expect(txt).toContain('欢迎')
   })
 
