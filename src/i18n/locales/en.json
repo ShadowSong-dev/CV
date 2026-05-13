@@ -41,12 +41,10 @@
     "education": "Dongguan University of Technology · CS · junior · expected 2027",
     "experience": "~1 year of Web3 experience.",
     "bio": [
-      "Ships React user interfaces and Node.js back-end services,",
-      "augmenting the workflow with AI tooling.",
-      "Long-time follower of the Ethereum ecosystem; writes Solidity",
-      "smart contracts with a feel for gas optimisation; familiar with",
-      "wallet integration, on-chain interactions and common EVM",
-      "standards. Knows the Uniswap v3 protocol well."
+      "Proficient in building frontend user interfaces with React and backend services with Node.js, and experienced in using AI tools to assist workflows.",
+      "Long-term follower of the Ethereum ecosystem, with experience in developing smart contracts using Solidity.",
+      "Possesses gas optimization skills and is familiar with wallet integration, on-chain interactions, and common EVM standards.",
+      "Also familiar with the Uniswap v3 protocol."
     ],
     "englishLabel": "english  ",
     "englishValue": "reads and writes technical English fluently and able to conduct basic technical communication in English"
@@ -120,8 +118,7 @@
     "education": "Dongguan University of Technology · CS · junior · expected 2027",
     "aboutTitle": "About",
     "aboutParas": [
-      "~1 year of Web3 experience. Ships React user interfaces and Node.js back-end services, augmenting the workflow with AI tooling. Long-time follower of the Ethereum ecosystem; writes Solidity smart contracts with a feel for gas optimisation; familiar with wallet integration, on-chain interactions and common EVM standards. Knows the Uniswap v3 protocol well.",
-      "Reads and writes technical English fluently; comfortable with basic technical conversations in English."
+      "~1 year of Web3 experience. Proficient in building frontend user interfaces with React and backend services with Node.js, and experienced in using AI tools to assist workflows.Long-term follower of the Ethereum ecosystem, with experience in developing smart contracts using Solidity. Possesses gas optimization skills and is familiar with wallet integration, on-chain interactions, and common EVM standards. Also familiar with the Uniswap v3 protocol."
     ],
     "skillsTitle": "Skills",
     "projectsTitle": "Projects",
