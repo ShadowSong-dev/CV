@@ -50,17 +50,17 @@
     "englishValue": "reads and writes technical English fluently and able to conduct basic technical communication in English"
   },
   "ls": {
-    "ayeDesc": "— Human-in-the-loop on-chain AI agent · ETHGlobal Open Agents",
+    "ayeDesc": "— Human-in-the-agent-loop on-chain AI agent · ETHGlobal Open Agents",
     "cvDesc": "— Personal resume (this site)",
     "hintPrefix": "hint: ",
     "hintCmd": "cat <name>",
     "hintSuffix": " for details"
   },
   "aye": {
-    "title": "# Aye — Human-in-the-loop on-chain AI agent",
+    "title": "# Aye — Human-in-the-agent-loop on-chain AI agent",
     "subtitle": "  ETHGlobal Open Agents hackathon · solo",
     "introLines": [
-      "Aye is a human-in-the-loop AI agent for Ethereum (Sepolia),",
+      "Aye is a human-in-the-agent-loop AI agent for Ethereum (Sepolia),",
       "built across three workspaces:"
     ],
     "coreLabel": "TypeScript core",
@@ -123,10 +123,10 @@
     "skillsTitle": "Skills",
     "projectsTitle": "Projects",
     "ayeProject": {
-      "title": "Aye — Human-in-the-loop on-chain AI agent",
+      "title": "Aye — Human-in-the-agent-loop on-chain AI agent",
       "subtitle": "ETHGlobal Open Agents hackathon · solo",
       "description": [
-        "Aye is a human-in-the-loop AI agent for Ethereum (Sepolia), built across three workspaces: a DeepSeek-powered TypeScript core that polls prompts and turns natural-language requests into structured on-chain intents (Uniswap V3 swaps, ETH/ERC20 transfers, approvals, WETH wrap/unwrap, …); Solidity contracts that supply an audit log and a whitelist for accountability; and a Vite/viem web front-end where a human reviewer says \"yes\" or \"no\" before any transaction is signed and broadcast.",
+        "Aye is a human-in-the-agent-loop AI agent for Ethereum (Sepolia), built across three workspaces: a DeepSeek-powered TypeScript core that polls prompts and turns natural-language requests into structured on-chain intents (Uniswap V3 swaps, ETH/ERC20 transfers, approvals, WETH wrap/unwrap, …); Solidity contracts that supply an audit log and a whitelist for accountability; and a Vite/viem web front-end where a human reviewer says \"yes\" or \"no\" before any transaction is signed and broadcast.",
         "The wallet owner — not the model — becomes the safety layer."
       ]
     },

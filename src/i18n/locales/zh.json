@@ -51,14 +51,14 @@
     "englishValue": "可流畅读写英文技术文档，能进行基础英文技术沟通"
   },
   "ls": {
-    "ayeDesc": "— 人在回路的链上 AI Agent · ETHGlobal Open Agents",
+    "ayeDesc": "— 人类参与代理循环的 AI Agent · ETHGlobal Open Agents",
     "cvDesc": "— 个人简历 (本项目)",
     "hintPrefix": "提示： ",
     "hintCmd": "cat <name>",
     "hintSuffix": " 查看详情"
   },
   "aye": {
-    "title": "# Aye —— 人在回路的链上 AI Agent",
+    "title": "# Aye —— 人类参与代理循环的 AI Agent",
     "subtitle": "  ETHGlobal Open Agents 黑客松 · 独立项目",
     "introLines": [
       "Aye 是一个用于以太坊 (Sepolia 测试网) 的人机交互 AI 代理，",
@@ -123,7 +123,7 @@
     "skillsTitle": "技能",
     "projectsTitle": "项目",
     "ayeProject": {
-      "title": "Aye —— 人在回路的链上 AI Agent",
+      "title": "Aye —— 人类参与代理循环的 AI Agent",
       "subtitle": "ETHGlobal Open Agents 黑客松 · 独立项目",
       "description": [
         "Aye 是一个用于以太坊 (Sepolia 测试网) 的人机交互 AI 代理，分为三个工作区：一个由 DeepSeek 驱动的 TypeScript 核心服务（轮询提示并将自然语言请求转换为结构化的链上意图：Uniswap V3 兑换、ETH/ERC20 转账、批准、WETH 包装/解包等）；提供审计日志和白名单以实现问责的 Solidity 合约；以及一个 Vite/viem Web 前端，在任何交易签名和广播之前，人工审核员都会说「是」或「否」。",
