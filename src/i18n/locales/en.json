@@ -8,7 +8,7 @@
   },
   "welcome": {
     "cliTitle": "RayChen CLI v1.0.0",
-    "greeting": "Welcome — this is an interactive terminal resume.",
+    "greeting": "Welcome — this is an interactive terminal resume.Type or click \"gui\" to entry the GUI mode",
     "tipType": "type ",
     "tipForAll": " for all commands · ",
     "tipForBio": " for bio · ",

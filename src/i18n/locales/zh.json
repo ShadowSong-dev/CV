@@ -8,7 +8,7 @@
   },
   "welcome": {
     "cliTitle": "RayChen CLI v1.0.0",
-    "greeting": "欢迎 — 这是一份可交互的终端简历。",
+    "greeting": "欢迎 — 这是一份可交互的终端简历。输入或点击\"gui\"进入GUI模式",
     "tipType": "输入 ",
     "tipForAll": " 查看全部命令 · ",
     "tipForBio": " 查看简介 · ",
